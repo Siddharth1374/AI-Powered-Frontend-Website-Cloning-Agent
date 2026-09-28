@@ -36,7 +36,8 @@ Open http://localhost:5173, paste a URL, pick a mode, and click the arrow.
 ## Architecture
 
 `URL → Analysis → Generation → Validation → Preview → Modification`
-<img width="1436" height="1061" alt="System Architecture Overview" src="https://github.com/user-attachments/assets/4c2d782b-5ed4-4350-97ca-eee59a6e606e" />
+<img width="1436" height="962" alt="System Architecture Overview" src="https://github.com/user-attachments/assets/3995fa2c-f6d9-4408-8add-3bd698712e3d" />
+
 
 
 1. **Analysis:** Playwright loads the page in headless Chromium, reads computed

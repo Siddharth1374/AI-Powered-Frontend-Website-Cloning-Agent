@@ -1,0 +1,15 @@
+{
+  "name": "ai-website-cloning-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI agent that clones a website's frontend into React and lets you modify it with natural language, powered by Groq.",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "npx concurrently -n server,client -c blue,green \"npm:dev:server\" \"npm:dev:client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

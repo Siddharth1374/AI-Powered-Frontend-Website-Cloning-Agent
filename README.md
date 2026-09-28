@@ -5,7 +5,7 @@ React frontend that recreates it, shows a live local preview, and lets you edit
 it with natural-language prompts ("change the primary color to blue", "add a
 testimonials section").
 
-Demo video: <link> · Tested on: <site 1>, <site 2>, <site 3>
+
 
 ## Setup
 
@@ -36,7 +36,8 @@ Open http://localhost:5173, paste a URL, pick a mode, and click the arrow.
 ## Architecture
 
 `URL → Analysis → Generation → Validation → Preview → Modification`
-(diagram: `docs/architecture.png`)
+<img width="1436" height="1061" alt="System Architecture Overview" src="https://github.com/user-attachments/assets/4c2d782b-5ed4-4350-97ca-eee59a6e606e" />
+
 
 1. **Analysis:** Playwright loads the page in headless Chromium, reads computed
    styles (colors, fonts, spacing), text, images and navigation, and splits the
